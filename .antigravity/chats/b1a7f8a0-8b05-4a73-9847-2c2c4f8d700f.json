@@ -3,6 +3,31 @@
   "name": "connect github",
   "createdAt": "2026-11-08T07:16:26.568Z",
   "filename": "b1a7f8a0-8b05-4a73-9847-2c2c4f8d700f.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "ab8e7327-d32b-4d1c-adc9-8acba12af22e",
+      "role": "user",
+      "content": "connect github",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-08T07:17:15.194Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "22e6a1a2-50e2-4e6f-aa1f-bef1875ed16c",
+      "role": "agent",
+      "content": "To connect a GitHub repository, tap the **GitHub mark** at the top of the chat. Once you connect it, your entire project history will be synced there automatically!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "ab8e7327-d32b-4d1c-adc9-8acba12af22e",
+      "created_at": "2026-11-08T07:17:22.412Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
